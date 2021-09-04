@@ -1,0 +1,23 @@
+{
+  "name": "github-action-json-edit",
+  "version": "1.0.0",
+  "description": "Takes a JSON file as input updates the fields and writes to a new file",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist"
+  },
+  "keywords": [
+    "Edit",
+    "JSON",
+    "File",
+    "Github",
+    "Actions"
+  ],
+  "author": "anil.k.nayak8@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.5.0",
+    "edit-json-file": "^1.6.0",
+    "tmp": "^0.2.1"
+  }
+}
